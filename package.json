@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "test:watch": "jest --watchAll",
+    "test:watch": "jest --watch",
     "build": "rm -rf dist && webpack",
     "start": "NODE_ENV=development webpack",
     "dev": "NODE_ENV=development nodemon dist/main.js"
