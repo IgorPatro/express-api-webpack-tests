@@ -8,8 +8,10 @@ describe('app', () => {
     request = supertest(app);
   });
 
-  it('should return a successful response for GET /', done => {
-    request.get('/')
-      .expect(200, done);
+  it('successful response for GET /', async () => {
+    const { body } = await request.get("/")
+    expect(body).toEqual({
+      message: "hello world"
+    })
   });
 });
