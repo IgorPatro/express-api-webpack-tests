@@ -1,23 +1,29 @@
-## Hi there!
+# Express Webpack
 
-This is basic config to write some express API's powered with Jest TDD and TypeScript compiled with webpack
+## Status: ````Canceled````
 
-## Installation
+## Description
+Tryouts to create a working Express app with webpack config
 
-If you want to install this repo and run it locally, you will need first to install all dependencies:
+## Technologies
+- Express
+- Webpack
+- TypeScript
+- Jest
+- Supertest
 
-`npm install`
+## Setup 
+```bash
+## Setup and run app
+- run 'yarn'
+- run 'yarn dev'
 
-then you are able to run development server which will automaticaly reload with changes:
+## Available commands
+- test # testing
+- test:watch # testing with watch mode
+- build # production build
+- start # webpack development configuration
+- dev # developing app
+```
 
-`npm start`
 
-## Testing
-
-To run tests you just need to write in console:
-
-`npm run test`
-
-If you want to open tests in watch mode write:
-
-`npm run test:watch`
